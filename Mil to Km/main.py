@@ -11,7 +11,6 @@ window.configure(background="white")
 window.resizable(width=False, height=False)
 
 miles_input = Entry(width=10)
-# Girdi kutusunu ekranda konumlandırmak için:
 miles_input.grid(column=1, row=0)
 
 miles_label = Label(text="Miles")
